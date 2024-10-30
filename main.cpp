@@ -36,7 +36,7 @@ int main()
 
     // Load star and planet textures
     sf::Texture starTexture;
-    if (!starTexture.loadFromFile("star.png"))
+    if (!starTexture.loadFromFile("resources/star.png"))
     {
         std::cerr << "Error loading star texture" << std::endl;
         return 1;
@@ -45,7 +45,7 @@ int main()
     star.setPosition(100, 100);
 
     sf::Texture planetTexture;
-    if (!planetTexture.loadFromFile("planet.png"))
+    if (!planetTexture.loadFromFile("resources/planet.png"))
     {
         std::cerr << "Error loading planet texture" << std::endl;
         return 1;
@@ -55,7 +55,7 @@ int main()
 
     // Load sound effect
     sf::SoundBuffer buffer;
-    if (!buffer.loadFromFile("laser_sound.wav"))
+    if (!buffer.loadFromFile("resources/laser.ogg"))
     {
         std::cerr << "Error loading sound effect" << std::endl;
         return 1;
@@ -65,7 +65,7 @@ int main()
 
     // load background music
     sf::Music music;
-    if (!music.openFromFile("background_music.ogg"))
+    if (!music.openFromFile("/resources/background_music.ogg"))
     {
         std::cerr << "Error loading background music" << std::endl;
         return 1;
