@@ -1,5 +1,7 @@
-.vscode
+# .vscode
 build
 .DS_Store
 # env
 .env
+# hide .vscode folder
+.vscode/*
