@@ -8,6 +8,15 @@ main C++ file with a simple game loop. This code initializes a window and lets a
 
 c++, a Makefile to compile and link the SFML libraries.
 
+### exec
+
+compile first, fix errors if any, then run clang++:
+
+```c++
+make ./spaceship_game
+./spaceship_game
+```
+
 ### Purpose
 
 Learn a cool programming language, encourage my children to be creators and build their own games and programs.
@@ -20,4 +29,4 @@ Thanks to Image by [Pixabay](https://pixabay.com/users/openclipart-vectors-30363
 
 ### Contribute
 
-New ideas are welcome, open to discuss and improve it, make it more fun. If possible insert this package into another platform to keep up the score or progress on different things like, study streaks, hackathons, etc.
+New ideas are welcome, open to discussion and improvements to runtime, size of resources, etc., to make it more fun. In the next version, if possible, package game then insert it into another platform to keep up the score or progress on different things like, study streaks, hackathons, etc.
